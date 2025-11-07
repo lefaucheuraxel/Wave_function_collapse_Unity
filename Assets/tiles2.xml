@@ -1,10 +1,10 @@
 <set>
   <tiles>
-<tile name="tile_roadT" symmetry="T" weight="1.0"/>
-<tile name="tile_endroadT" symmetry="T" weight="1.0"/>
+<tile name="tile_roadT" symmetry="T" weight="1.5"/>
+<tile name="tile_endroadT" symmetry="T" weight="0.5"/>
 <tile name="tile_virageT" symmetry="T" weight="1.0"/>
 <tile name="tile_crossroadT" symmetry="T" weight="1.0"/>
-<tile name="tile_treeT" symmetry="T" weight="1.0"/>
+<tile name="tile_treeT" symmetry="T" weight="0.5"/>
 	</tiles>
 <neighbors>  <neighbor left="tile_treeT 0" right="tile_treeT 0"/>
   <neighbor left="tile_treeT 1" right="tile_treeT 1"/>

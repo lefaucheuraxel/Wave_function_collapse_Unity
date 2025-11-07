@@ -1,0 +1,112 @@
+<set>
+  <tiles>
+    <tile name="tile_roadT" symmetry="T" weight="1.0"/>
+    <tile name="tile_endroadT" symmetry="T" weight="0.8"/>
+    <tile name="tile_virageT" symmetry="T" weight="1.5"/>
+    <tile name="tile_crossroadT" symmetry="T" weight="1.2"/>
+    <tile name="tile_treeT" symmetry="T" weight="0.3"/>
+  </tiles>
+
+  <neighbors>
+    <neighbor left="tile_treeT 0" right="tile_treeT 0"/>
+    <neighbor left="tile_treeT 1" right="tile_treeT 1"/>
+    <neighbor left="tile_treeT 2" right="tile_treeT 2"/>
+    <neighbor left="tile_treeT 3" right="tile_treeT 3"/>
+    <neighbor left="tile_treeT 0" right="tile_endroadT 2"/>
+    <neighbor left="tile_treeT 1" right="tile_endroadT 3"/>
+    <neighbor left="tile_treeT 2" right="tile_endroadT 0"/>
+    <neighbor left="tile_treeT 3" right="tile_endroadT 1"/>
+    <neighbor left="tile_treeT 0" right="tile_roadT 1"/>
+    <neighbor left="tile_treeT 0" right="tile_roadT 3"/>
+    <neighbor left="tile_treeT 1" right="tile_roadT 0"/>
+    <neighbor left="tile_treeT 1" right="tile_roadT 2"/>
+    <neighbor left="tile_treeT 0" right="tile_virageT 1"/>
+    <neighbor left="tile_treeT 0" right="tile_virageT 2"/>
+    <neighbor left="tile_treeT 1" right="tile_virageT 2"/>
+    <neighbor left="tile_treeT 1" right="tile_virageT 3"/>
+    <neighbor left="tile_treeT 2" right="tile_virageT 0"/>
+    <neighbor left="tile_treeT 2" right="tile_virageT 3"/>
+    <neighbor left="tile_treeT 3" right="tile_virageT 0"/>
+    <neighbor left="tile_treeT 3" right="tile_virageT 1"/>
+    <neighbor left="tile_roadT 0" right="tile_roadT 0"/>
+    <neighbor left="tile_roadT 1" right="tile_roadT 1"/>
+    <neighbor left="tile_roadT 2" right="tile_roadT 2"/>
+    <neighbor left="tile_roadT 3" right="tile_roadT 3"/>
+    <neighbor left="tile_roadT 0" right="tile_virageT 0"/>
+    <neighbor left="tile_roadT 0" right="tile_virageT 3"/>
+    <neighbor left="tile_roadT 1" right="tile_virageT 0"/>
+    <neighbor left="tile_roadT 1" right="tile_virageT 1"/>
+    <neighbor left="tile_roadT 2" right="tile_virageT 1"/>
+    <neighbor left="tile_roadT 2" right="tile_virageT 2"/>
+    <neighbor left="tile_roadT 3" right="tile_virageT 2"/>
+    <neighbor left="tile_roadT 3" right="tile_virageT 3"/>
+    <neighbor left="tile_roadT 0" right="tile_crossroadT 0"/>
+    <neighbor left="tile_roadT 0" right="tile_crossroadT 1"/>
+    <neighbor left="tile_roadT 0" right="tile_crossroadT 2"/>
+    <neighbor left="tile_roadT 0" right="tile_crossroadT 3"/>
+    <neighbor left="tile_roadT 1" right="tile_crossroadT 0"/>
+    <neighbor left="tile_roadT 1" right="tile_crossroadT 1"/>
+    <neighbor left="tile_roadT 1" right="tile_crossroadT 2"/>
+    <neighbor left="tile_roadT 1" right="tile_crossroadT 3"/>
+    <neighbor left="tile_roadT 2" right="tile_crossroadT 0"/>
+    <neighbor left="tile_roadT 2" right="tile_crossroadT 1"/>
+    <neighbor left="tile_roadT 2" right="tile_crossroadT 2"/>
+    <neighbor left="tile_roadT 2" right="tile_crossroadT 3"/>
+    <neighbor left="tile_roadT 3" right="tile_crossroadT 0"/>
+    <neighbor left="tile_roadT 3" right="tile_crossroadT 1"/>
+    <neighbor left="tile_roadT 3" right="tile_crossroadT 2"/>
+    <neighbor left="tile_roadT 3" right="tile_crossroadT 3"/>
+    <neighbor left="tile_roadT 0" right="tile_endroadT 0"/>
+    <neighbor left="tile_roadT 1" right="tile_endroadT 1"/>
+    <neighbor left="tile_roadT 2" right="tile_endroadT 2"/>
+    <neighbor left="tile_roadT 3" right="tile_endroadT 3"/>
+    <neighbor left="tile_virageT 0" right="tile_virageT 2"/>
+    <neighbor left="tile_virageT 1" right="tile_virageT 3"/>
+    <neighbor left="tile_virageT 2" right="tile_virageT 0"/>
+    <neighbor left="tile_virageT 3" right="tile_virageT 1"/>
+    <neighbor left="tile_virageT 0" right="tile_crossroadT 0"/>
+    <neighbor left="tile_virageT 0" right="tile_crossroadT 1"/>
+    <neighbor left="tile_virageT 0" right="tile_crossroadT 2"/>
+    <neighbor left="tile_virageT 0" right="tile_crossroadT 3"/>
+    <neighbor left="tile_virageT 1" right="tile_crossroadT 0"/>
+    <neighbor left="tile_virageT 1" right="tile_crossroadT 1"/>
+    <neighbor left="tile_virageT 1" right="tile_crossroadT 2"/>
+    <neighbor left="tile_virageT 1" right="tile_crossroadT 3"/>
+    <neighbor left="tile_virageT 2" right="tile_crossroadT 0"/>
+    <neighbor left="tile_virageT 2" right="tile_crossroadT 1"/>
+    <neighbor left="tile_virageT 2" right="tile_crossroadT 2"/>
+    <neighbor left="tile_virageT 2" right="tile_crossroadT 3"/>
+    <neighbor left="tile_virageT 3" right="tile_crossroadT 0"/>
+    <neighbor left="tile_virageT 3" right="tile_crossroadT 1"/>
+    <neighbor left="tile_virageT 3" right="tile_crossroadT 2"/>
+    <neighbor left="tile_virageT 3" right="tile_crossroadT 3"/>
+    <neighbor left="tile_virageT 0" right="tile_endroadT 0"/>
+    <neighbor left="tile_virageT 0" right="tile_endroadT 3"/>
+    <neighbor left="tile_virageT 1" right="tile_endroadT 0"/>
+    <neighbor left="tile_virageT 1" right="tile_endroadT 1"/>
+    <neighbor left="tile_virageT 2" right="tile_endroadT 1"/>
+    <neighbor left="tile_virageT 2" right="tile_endroadT 2"/>
+    <neighbor left="tile_virageT 3" right="tile_endroadT 2"/>
+    <neighbor left="tile_virageT 3" right="tile_endroadT 3"/>
+    <neighbor left="tile_crossroadT 0" right="tile_crossroadT 0"/>
+    <neighbor left="tile_crossroadT 0" right="tile_crossroadT 1"/>
+    <neighbor left="tile_crossroadT 0" right="tile_crossroadT 2"/>
+    <neighbor left="tile_crossroadT 0" right="tile_crossroadT 3"/>
+    <neighbor left="tile_crossroadT 1" right="tile_crossroadT 0"/>
+    <neighbor left="tile_crossroadT 1" right="tile_crossroadT 1"/>
+    <neighbor left="tile_crossroadT 1" right="tile_crossroadT 2"/>
+    <neighbor left="tile_crossroadT 1" right="tile_crossroadT 3"/>
+    <neighbor left="tile_crossroadT 2" right="tile_crossroadT 0"/>
+    <neighbor left="tile_crossroadT 2" right="tile_crossroadT 1"/>
+    <neighbor left="tile_crossroadT 2" right="tile_crossroadT 2"/>
+    <neighbor left="tile_crossroadT 2" right="tile_crossroadT 3"/>
+    <neighbor left="tile_crossroadT 3" right="tile_crossroadT 0"/>
+    <neighbor left="tile_crossroadT 3" right="tile_crossroadT 1"/>
+    <neighbor left="tile_crossroadT 3" right="tile_crossroadT 2"/>
+    <neighbor left="tile_crossroadT 3" right="tile_crossroadT 3"/>
+    <neighbor left="tile_crossroadT 0" right="tile_endroadT 0"/>
+    <neighbor left="tile_crossroadT 1" right="tile_endroadT 1"/>
+    <neighbor left="tile_crossroadT 2" right="tile_endroadT 2"/>
+    <neighbor left="tile_crossroadT 3" right="tile_endroadT 3"/>
+  </neighbors>
+</set>
